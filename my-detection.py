@@ -71,7 +71,7 @@ while True:
 
 	for detection in detections:
 		fridgeList.append(detection)
-		print(detection)
+		print("Items Currently in Fridge: " +detection)
 		
 
 	# render the image
